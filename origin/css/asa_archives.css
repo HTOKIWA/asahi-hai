@@ -1,0 +1,61 @@
+#contents h1 {
+	background-image: url(../images/bg_heading.gif);
+	padding: 0 12px;
+	font-size: 1.2em;
+}
+#archives {
+	background-image: url(../images/bg_heading_btm.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#archives h2 {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 0.2em;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+.archivesTable
+{
+	background: #fff;
+	margin: 1em 1em 2em;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 0.9em;
+}
+.archivesTable th.top
+{
+	font-size: 130%;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.archivesTable th,
+.archivesTable td,
+.archivesTable a
+{
+	color: #003366;
+	padding: 9px 8px 0px 8px;
+}
+.archivesTable tr:hover td,
+.archivesTable tr:hover a
+{
+	color: #66CCFF;
+}
+
+
+.annotation {
+	font-size: 0.8em;
+	margin-top: 8px;
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+#flashContent {
+	border: 1px solid #EEEEEE;
+	margin: 0px;
+	padding: 0px;
+}

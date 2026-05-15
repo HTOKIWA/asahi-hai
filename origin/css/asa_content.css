@@ -1,0 +1,84 @@
+#contents h1 {
+	background-image: url(../images/bg_heading.gif);
+	padding: 0 12px;
+	font-size: 1.2em;
+}
+#content {
+	background-image: url(../images/bg_heading_btm.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 35px;
+}
+#content h2 {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 0.2em;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	clear: both;
+}
+#content h2 a {
+	padding-left: 24px;
+	background-image: url(../images/bg_heading2.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #000000;
+}
+#content h3 {
+	margin-left: 19px;
+	border-left: 5px solid #666699;
+	padding-left: 5px;
+	font-size: 1em;
+	line-height: 1.3;
+}
+#content h3 a {
+	color: #666699;
+}
+#content .lead {
+	font-size: 82.4%;
+	color: #333333;
+}
+#content p {
+	margin-left: 24px;
+	font-size: 0.9em;
+	margin-bottom: 1em;
+	line-height: 160%;
+}
+
+#content .winner {
+	float: right;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+#content strong {
+	font-size: 0.65em;
+	color: #666666;
+	font-weight: normal;
+}
+#content ul li .jar {
+	font-size: 0.83em;
+	color: #666666;
+}
+.clear {
+	clear: both;
+}
+.List {
+	margin-left: 2em;
+	margin-top: 0.75em;
+	margin-bottom: 1em;
+	line-height: 150%;
+}
+#content ul.List li {
+	line-height: 170%;	
+}
+.annotation {
+	font-size: 0.8em;
+	margin-top: 8px;
+}
+#flashContent {
+	border: 1px solid #EEEEEE;
+	margin: 0px;
+	padding: 0px;
+}
+#content #template {
+	display: none;
+}

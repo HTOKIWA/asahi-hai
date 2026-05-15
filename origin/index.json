@@ -1,0 +1,100 @@
+{
+	"games": [
+		{
+			"matchdate": "2015-12-08",
+			"gameheads": [
+				{
+					"id": "2015120801",
+					"kaiki": "第９回",
+					"seq": 1,
+					"division": {
+						"name": "二次予選",
+						"starttime": "10:00",
+						"has_time": "各40分"
+					},
+					"player1": {
+						"name": "佐藤天彦",
+						"grade": "八段"
+					},
+					"player2": {
+						"name": "田村康介",
+						"grade": "七段"
+					},
+					"hall": {
+						"name": "東京・将棋会館"
+					},
+					"gamebodies": [
+						{
+							"seq": 1,
+							"first_player": 0,
+							"url": "http://live.shogi.or.jp/asahi/kifu/9/asahi201512080101.html"
+						}
+					]
+				},
+				{
+					"id": "2015120802",
+					"kaiki": "第９回",
+					"seq": 2,
+					"division": {
+						"name": "二次予選",
+						"starttime": "10:00",
+						"has_time": "各40分"
+					},
+					"player1": {
+						"name": "永瀬拓矢",
+						"grade": "六段"
+					},
+					"player2": {
+						"name": "及川拓馬",
+						"grade": "六段"
+					},
+					"hall": {
+						"name": "東京・将棋会館"
+					},
+					"gamebodies": [
+						{
+							"seq": 2,
+							"first_player": 2,
+							"status": "指し直し",
+							"url": "http://live.shogi.or.jp/asahi/kifu/9/asahi201512080202.html"
+						},
+						{
+							"seq": 1,
+							"first_player": 1,
+							"status": "千日手",
+							"url": "http://live.shogi.or.jp/asahi/kifu/9/asahi201512080201.html"
+						}
+					]
+				},
+				{
+					"id": "2015120803",
+					"kaiki": "第９回",
+					"seq": 3,
+					"division": {
+						"name": "二次予選",
+						"starttime": "14:00",
+						"has_time": "各40分"
+					},
+					"player1": {
+						"name": "勝者1",
+						"grade": "　"
+					},
+					"player2": {
+						"name": "勝者2",
+						"grade": "　"
+					},
+					"hall": {
+						"name": "東京・将棋会館"
+					},
+					"gamebodies": [
+						{
+							"seq": 1,
+							"first_player": 0,
+							"url": "http://live.shogi.or.jp/asahi/kifu/9/asahi201512080301.html"
+						}
+					]
+				}
+			]
+		}
+	]
+}

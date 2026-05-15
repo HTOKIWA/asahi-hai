@@ -1,0 +1,27 @@
+#footerNavi {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	width: 750px;
+	background-color:#330099;
+	font-size: 0.8em;
+	background-image: url(../images/bg_footer_btm.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#footerNavi li {
+	display: inline;
+}
+#footerNavi li a {
+	color: #FFFFFF;
+	padding: 0 1em;
+	font-weight: bold;
+}
+#copy {
+	text-align: center;
+	color: #666666;
+	font-size: 0.75em;
+	margin: 1em 0;
+	line-height: 120%;
+}

@@ -1,0 +1,36 @@
+#topNavi h2 {
+	display: none;
+}
+#mainNavi {
+	position: absolute;
+	top: 85px;
+	left: 0px;
+	border-bottom: 1px solid #999999;
+	float: left;
+	height: 45px;
+	_font-size: 1px;/*IE6用ハック*/
+}
+#mainNavi li {
+	float: left;
+	height: 45px;
+	display: block;
+}
+#helpNavi {
+	position: absolute;
+	top: 20px;
+	left: 154px;
+	width: 606px;
+	text-align: right;
+	font-size: 0.8em;
+}
+#helpNavi li {
+	display: inline;
+	padding-left: 20px;
+}
+#helpNavi li a {
+	background-image: url(../images/list_mark.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	color: #000000;
+}

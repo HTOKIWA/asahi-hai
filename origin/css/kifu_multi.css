@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	font-size: 14pt;
+}
+
+body {
+	font-family: "ÉÅÉCÉäÉI","Meiryo","ÇlÇr ÇoÉSÉVÉbÉN","Hiragino Kaku Gothic Pro","ÉqÉâÉMÉmäpÉS Pro W3",sans-serif;
+	line-height: 1.5;
+	background: #EAEAEA;
+}
+/* for WinIE6*/
+* html body {
+	font-family: Verdana, "ÇlÇr ÇoÉSÉVÉbÉN", sans-serif;
+	vertical-align: baseline;
+}
+/* for WinIE7*/
+*:first-child+html body { 
+	font-family: 'ÉÅÉCÉäÉI', Meiryo, sans-serif;
+}
+
+
+#wrapper {
+	background: #EFEFEF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#content {
+	background: #F9F9F9;
+	width: 1260px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px 25px 15px;
+}
+.kifuBox {
+	float: left;
+	width: 580px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#flashcontent,#flashcontent02,#flashcontent03,#flashcontent04,#flashcontent05 {
+	width: 580px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body#asahi #content h1 {
+	font-weight: normal;
+	border-bottom: 2px solid #6699FF;
+	width: 85%;
+	padding-bottom: 0.1em;
+	padding-left: 1em;
+	line-height: 1.4;
+	margin-bottom: 10px;
+	border-left: 8px solid #6699FF;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+body#asahi #content .kifuBox h2 {
+	font-weight: normal;
+	border-bottom: 2px solid #0033CC;
+	width: 85%;
+	padding-bottom: 0.1em;
+	padding-left: 1em;
+	line-height: 1.4;
+	margin-bottom: 10px;
+	border-left: 8px solid #0033CC;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+#bottom {
+	text-align: center;
+	background: #E0E0E0;
+	width: 580px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#bottom p{
+	font-size: 85%;
+}
+#bottom a {
+	font-size: 87%;
+}
+#footer {
+	clear: both;
+}
+#footer p {
+	font-size: 70%;
+	color: #FFFFFF;
+}
+#copyrights {
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+}
+#copyrights p {
+	font-size: 65%;
+	color: #333333;
+}
+

@@ -1,0 +1,88 @@
+#localNavi h2 ,#localNavi02 h2 ,#localNavi03 h2 {
+	display: none;
+}
+#localNavi02 h3.first {
+	background: url(../images/bg_subNavi_top05.gif) no-repeat left top;
+	height: 25px;
+	text-indent: -9000px;
+}
+#localNavi h3.goriyou {
+	height: 15px;
+	text-indent: -9000px;
+}
+#localNavi02 h3.goriyou ,#localNavi03 h3.goriyou {
+	background: url(../images/bg_subNavi_top03.gif) no-repeat left top;
+	height: 25px;
+	text-indent: -9000px;
+}
+#localMenu {
+	width: 178px;
+	margin-left: 1px;
+	font-size: 0.8em;
+	margin-top: 0px;
+	position: relative;
+	top: 16px;
+	padding-bottom: 10px;
+}
+#localMenu li {
+	_height:1em;
+	margin: 0.5em;
+	display: block;
+	padding: 0em;
+	border-bottom: 1px solid #D0D0D0;
+	font-weight: bold;
+}
+#localMenu li a {
+	padding: 0.5em;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #D0D0D0;
+	display: block;
+	_height:1em;
+	margin: 0px;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+#localMenu li.current {
+	padding: 0.5em;
+	background-color: #EDE1FF;
+	border-bottom: 1px solid #D0D0D0;
+	display: block;
+	_height:1em;
+	margin: 0.5em;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000099;
+}
+#localMenu p {
+	line-height: 150%;
+	margin-top: 10px;
+	padding: 4px;
+	color: #333333;
+}
+#localMenu #asahi {
+	width: 85%;
+	background: #FFFFFF;
+	border: 1px solid #3366CC;
+	margin: 10px auto;
+	padding: 4px;
+}
+#localMenu #asahi p, #localMenu .kakomi p {
+	margin: 0px;
+	padding: 0px;
+}
+#localMenu ul li a:hover, #localMenu ul li a:focus {
+	background: #CCCCFF!important;
+	color: #000099;
+}
+#localMenu .kakomi {
+	width: 85%;
+	background: #FFFFFF;
+	border: 1px solid #3366CC;
+	padding: 4px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}

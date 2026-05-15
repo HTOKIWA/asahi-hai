@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>棋譜再生 - 朝日杯将棋オープン中継サイト</title>
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Kifu-for-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/kifu-for-js@3/bundle/kifu-for-js.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .kifu-container {
+            max-width: 100%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        @media screen and (max-width: 600px) {
+            .kifu-for-js {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="layoutBody">
+    <header id="header">
+        <h1><a href="../index.html"><img src="../images/site_id.gif" alt="朝日杯将棋オープン中継サイト"></a></h1>
+    </header>
+
+    <div id="contentBody">
+        <main id="contents">
+            <article id="content">
+                <h2 id="kifu-title">棋譜再生</h2>
+                <div class="kifu-container">
+                    <!-- Kifu-for-JS Player -->
+                    <div id="player"></div>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <footer id="footer">
+        <p><a href="../index.html">トップページへ戻る</a></p>
+        <p id="copy">Copyright(C) The Asahi Shimbun Company. & Japan Shogi Association.</p>
+    </footer>
+</div>
+
+<script>
+    $(function() {
+        // URLパラメータやファイル名からKIFファイルを取得する想定
+        // ここでは静的に現在のHTMLに対応するKIFファイルを指定する例
+        var kifFile = "data/20110702asahi_11r.kif"; 
+        // もし .kif.Z (圧縮) の場合は解凍が必要だが、Kifu-for-JSは標準で対応している場合がある
+        
+        KifuForJS.load(kifFile, "player");
+    });
+</script>
+</body>
+</html>

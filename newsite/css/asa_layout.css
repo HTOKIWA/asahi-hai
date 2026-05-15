@@ -1,0 +1,65 @@
+#layoutBody {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+#header {
+	height: 69px;
+	padding-top: 16px;
+	background-image: url(../images/bg_header.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#contentBody {
+	width: 750px;
+	float: left;
+	background-image: url(../images/bg_contents.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin-top: 68px;
+	margin-left: 10px;
+	_float: none;
+}
+#contents {
+	width: 560px;
+	float: right;
+	background-image: url(../images/bg_heading_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 12px;
+}
+#localNavi {
+	width: 180px;
+	float:left;
+	background-image: url(../images/bg_subNavi_top03.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 11px;
+}
+#localNavi02 {
+	width: 180px;
+	float:left;
+	background-image: url(../images/bg_subNavi_top02.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 11px;
+}
+#localNavi03 {
+	width: 180px;
+	float:left;
+	background-image: url(../images/bg_subNavi_top04.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 11px;
+}
+#topNavi {
+	clear: both;
+}
+#footer {
+	clear: both;
+	background-image: url(../images/bg_footer_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 35px;
+}

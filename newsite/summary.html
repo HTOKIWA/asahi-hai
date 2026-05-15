@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朝日杯について - 朝日杯将棋オープン中継サイト</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .winner {
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        section {
+            clear: both;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div id="layoutBody">
+    <header id="header">
+        <h1><a href="index.html"><img src="images/site_id.gif" alt="朝日杯将棋オープン中継サイト"></a></h1>
+    </header>
+
+    <nav id="topNavi">
+        <ul id="mainNavi">
+            <li><a href="index.html">TOPページ</a></li>
+            <li><a href="summary.html">朝日杯について</a></li>
+            <li><a href="tournament/index.html">トーナメント表</a></li>
+            <li><a href="archives/index.html">過去の対局</a></li>
+            <li><a href="mailto:info@shogi.or.jp">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="contentBody">
+        <main id="contents">
+            <article id="content">
+                <h2>朝日杯について</h2>
+                
+                <section>
+                    <h3>大会概要</h3>
+                    <p>全棋士、アマチュア10名、女流棋士3名によるトーナメントです。<br>
+                    一次予選から本戦まで全てトーナメントで、持ち時間は各40分。優勝賞金は750万円です。</p>
+                </section>
+
+                <section>
+                    <h3>第18回優勝者</h3>
+                    <p><img src="images/asahi18_kondo.jpg" alt="第18回優勝 近藤誠也七段" width="100" height="133" class="winner">2025年2月11日、近藤誠也七段が優勝を果たしました。</p>
+                </section>
+
+                <section>
+                    <h3>第17回優勝者</h3>
+                    <p><img src="images/asahi17_nagase.jpg" alt="第17回優勝 永瀬拓矢九段" width="100" height="133" class="winner">2024年2月10日、永瀬拓矢九段が優勝を果たしました。</p>
+                </section>
+
+                <!-- 他の回も同様に移行可能 -->
+            </article>
+        </main>
+
+        <aside id="localNavi">
+            <section id="localMenu">
+                <h3>ご利用にあたって</h3>
+                <p>朝日新聞デジタルでも棋譜やニュースをご覧いただけます。</p>
+            </section>
+        </aside>
+    </div>
+
+    <footer id="footer">
+        <ul id="footerNavi">
+            <li><a href="http://www.asahi.com/">朝日新聞</a></li>
+            <li><a href="http://www.shogi.or.jp/">日本将棋連盟</a></li>
+        </ul>
+        <p id="copy">Copyright(C) The Asahi Shimbun Company. & Japan Shogi Association.</p>
+    </footer>
+</div>
+</body>
+</html>
